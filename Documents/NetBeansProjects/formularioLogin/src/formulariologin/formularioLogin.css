@@ -1,0 +1,32 @@
+
+/* 
+    Created on : 28/11/2022, 23:03:42
+    Author     : Márcio Olate
+*/
+.root{/*Aaqui inserimos uma imagem de fundo para nosso App*/
+    -fx-background-image: url(IMG_20210705_084009576.jpg);
+}
+#Entre-text{/*Aqui estilizamos a fonte "Entre"*/
+   -fx-font-size: 64px;
+   -fx-font-family: "Arial Black";
+   -fx-fill: #818181;
+   -fx-effect: innershadow( two-pass-box , rgba(0,0,0,0.7) , 6, 0.0 , 0 , 2 );
+}
+#senha-text, #nome-text{
+   
+    -fx-fill: FIREBRICK;
+  -fx-font-weight: bold;
+  -fx-effect: dropshadow( gaussian , rgba(255,255,255,0.5) , 0,0,0,1 );  
+}
+
+
+.button {/*estilização do botão*/
+    -fx-text-fill: white;
+    -fx-font-family: "Arial Narrow";
+    -fx-font-weight: bold;
+    -fx-background-color: linear-gradient(#61a2b1, #2A5058);
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+}
+.button:hover {
+    -fx-background-color: linear-gradient(#2A5058, #61a2b1);
+}
